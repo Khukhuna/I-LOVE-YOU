@@ -1,4 +1,4 @@
-public class Person{
+public class DefinitelyNotPerson {
 
 	public static void main(String[] args) {
 		Human i = new Human("me");
@@ -11,11 +11,11 @@ public class Person{
 class Human {
 	private String name;
 
-	Human(String name){
-			this.name = name;
+	Human(String name) {
+		this.name = name;
 	}
 
-	public void love(Human other){
+	public void love(Human other) {
 		System.out.printf("%s! Will you marry me? \n", other.name);
 	}
 }
